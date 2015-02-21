@@ -42,6 +42,7 @@
     <Compile Include="Clock.cs" />
     <Compile Include="IClock.cs" />
     <Compile Include="ParkingMeter.cs" />
+    <Compile Include="PrincingRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
