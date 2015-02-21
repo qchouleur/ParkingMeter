@@ -1,5 +1,0 @@
-C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic\bin\Debug\ParkingMeter.Logic.dll
-C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic\bin\Debug\ParkingMeter.Logic.pdb
-C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic\obj\Debug\ParkingMeter.Logic.csprojResolveAssemblyReference.cache
-C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic\obj\Debug\ParkingMeter.Logic.dll
-C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic\obj\Debug\ParkingMeter.Logic.pdb
