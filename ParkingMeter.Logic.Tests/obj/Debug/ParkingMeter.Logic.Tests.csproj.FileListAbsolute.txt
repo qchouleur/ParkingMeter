@@ -1,0 +1,9 @@
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\bin\Debug\ParkingMeter.Logic.Tests.dll
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\bin\Debug\ParkingMeter.Logic.Tests.pdb
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\bin\Debug\nunit.framework.dll
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\bin\Debug\ParkingMeter.Logic.dll
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\bin\Debug\ParkingMeter.Logic.pdb
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\bin\Debug\nunit.framework.xml
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\obj\Debug\ParkingMeter.Logic.Tests.csprojResolveAssemblyReference.cache
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\obj\Debug\ParkingMeter.Logic.Tests.dll
+C:\Users\QC\development\ParkingMeter\ParkingMeter.Logic.Tests\obj\Debug\ParkingMeter.Logic.Tests.pdb

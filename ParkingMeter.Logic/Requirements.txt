@@ -1,0 +1,13 @@
+﻿ParkingMeter
+
+
+- Should only accept 0.2, 0.5, 1, 2 coins -> DONE
+
+-	price /		time
+	1			20 minutes
+	2			1 hour
+	3			2 hours
+	5			12 hours
+	8			24 hours
+
+- The parking meter should not charge on specific date
