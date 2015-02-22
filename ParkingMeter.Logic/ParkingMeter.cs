@@ -1,4 +1,6 @@
-﻿namespace ParkingMeter.Logic
+﻿using ParkingMeter.Logic.TimeRules;
+
+namespace ParkingMeter.Logic
 {
     using System;
     using System.Linq;
@@ -10,11 +12,11 @@
         public decimal TotalAmountOfMoney { get; private set; }
 
         private readonly PrincingRule _pricingRule;
-        private readonly IClock _clock;
+        private readonly TimeLimitRule _timeLimitRule;
 
-        public ParkingMeter(IClock clock)
+        public ParkingMeter(IClock clock, TimeRulesConfiguration configuration)
         {
-            _clock = clock;
+            _timeLimitRule = new TimeLimitRule(clock, configuration);
             _pricingRule = new PrincingRule();
         }
 
@@ -28,9 +30,16 @@
             TotalAmountOfMoney += coinValue;
         }
 
+        public double GetCurrentTimeLimitInHour()
+        {
+            return _pricingRule.CalculateTimeLimitForAmount(TotalAmountOfMoney).TotalHours;
+        }
+
         public DateTime GetParkingLimitDate()
         {
-            return _clock.Now + _pricingRule.CalculateTimeLimitForAmount(TotalAmountOfMoney);
+            var availableTime = _pricingRule.CalculateTimeLimitForAmount(TotalAmountOfMoney);
+
+            return _timeLimitRule.ComputeEndingTimeDate(availableTime);
         }
     }
 }

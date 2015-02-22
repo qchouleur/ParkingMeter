@@ -15,5 +15,10 @@
         {
             get { return _now; }
         }
+
+        public DateTime Today
+        {
+            get { return new DateTime(_now.Year, _now.Month, _now.Day); }
+        }
     }
 }

@@ -1,13 +1,15 @@
-﻿ParkingMeter
+﻿ParkingMeter -- Requirements
 
-
-- Should only accept 0.2, 0.5, 1, 2 coins -> DONE
-
--	price /		time
-	1			20 minutes
-	2			1 hour
-	3			2 hours
-	5			12 hours
-	8			24 hours
+- Pricing : 20 minutes = 1€, 1h=2€, 2h=3€, ½ day=5€, 1 day=8€
 
 - The parking meter should not charge on specific date
+
+- Parking restrictions
+	from monday to saturday : from 8am to 12am and from 2pm to 6pm 
+	except public holidays and the month of august
+
+- The parking meter accepts 10, 20 et 50 cts and 1 or 2 € coins. 
+- The parking meter does not give change.
+
+- The parking meter should accept coins and give the limit date in which i can park.
+
